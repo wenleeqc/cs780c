@@ -13,7 +13,6 @@ double sum(T t, Args... args) {
     return t + sum(args...);
 }
 
-
 int main()
 {
     cout << sum(10, 3, 20, 1, 30, 50, 5, 1.5); // return 120.5
